@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://impl.services.travelapp.wspublic.alpi" xmlns:impl="http://impl.services.travelapp.wspublic.alpi" xmlns:intf="http://impl.services.travelapp.wspublic.alpi" xmlns:tns2="http://request.model.travelapp.wspublic.alpi" xmlns:tns3="http://response.model.travelapp.wspublic.alpi" xmlns:tns4="http://common.model.travelapp.wspublic.alpi" xmlns:tns5="http://schemas.datacontract.org" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsi="http://ws-i.org/profiles/basic/1.1/xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <schema targetNamespace="http://impl.services.travelapp.wspublic.alpi" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns2="http://request.model.travelapp.wspublic.alpi" xmlns:tns3="http://response.model.travelapp.wspublic.alpi" xmlns:tns5="http://schemas.datacontract.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://schemas.datacontract.org"/>
+   <import namespace="http://response.model.travelapp.wspublic.alpi"/>
+   <import namespace="http://request.model.travelapp.wspublic.alpi"/>
+   <element name="checkHotelTypeResponse">
+    <complexType>
+     <sequence>
+      <element name="checkHotelTypeReturn" nillable="true" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getTravelDetails">
+    <complexType>
+     <sequence>
+      <element name="travelsDetailsRequest" nillable="true" type="tns2:TravelDetailsRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getTravelDetailsResponse">
+    <complexType>
+     <sequence>
+      <element name="getTravelDetailsReturn" nillable="true" type="tns3:TravelDetailsRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getNewsList">
+    <complexType>
+     <sequence>
+      <element name="newsListRequest" nillable="true" type="tns2:NewsListRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getNewsListResponse">
+    <complexType>
+     <sequence>
+      <element name="getNewsListReturn" nillable="true" type="impl:ArrayOf_629034958_nillable_NewsListRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlPreventivo">
+    <complexType>
+     <sequence>
+      <element name="xmlPreventivoRequest" nillable="true" type="tns2:XmlPreventivoRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlPreventivoResponse">
+    <complexType>
+     <sequence>
+      <element name="getXmlPreventivoReturn" nillable="true" type="tns3:XmlPreventivoRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="checkUserAuthentication">
+    <complexType>
+     <sequence>
+      <element name="checkAuthenticationRequest" nillable="true" type="tns2:CheckAuthenticationRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="checkUserAuthenticationResponse">
+    <complexType>
+     <sequence>
+      <element name="checkUserAuthenticationReturn" nillable="true" type="tns3:CheckAuthenticationRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateCustomerProfile">
+    <complexType>
+     <sequence>
+      <element name="updateCustomerProfileRequest" nillable="true" type="tns2:UpdateCustomerProfileRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateCustomerProfileResponse">
+    <complexType>
+     <sequence>
+      <element name="updateCustomerProfileReturn" nillable="true" type="tns3:UpdateCustomerProfileRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="retrievePassword">
+    <complexType>
+     <sequence>
+      <element name="retrievePasswordRequest" nillable="true" type="tns2:RetrievePasswordRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="retrievePasswordResponse">
+    <complexType>
+     <sequence>
+      <element name="retrievePasswordReturn" nillable="true" type="tns3:RetrievePasswordRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="modifyPassword">
+    <complexType>
+     <sequence>
+      <element name="modifyPasswordRequest" nillable="true" type="tns2:ModifyPasswordRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="modifyPasswordResponse">
+    <complexType>
+     <sequence>
+      <element name="modifyPasswordReturn" nillable="true" type="tns3:ModifyPasswordRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getCustomerTravels">
+    <complexType>
+     <sequence>
+      <element name="customerTravelsRequest" nillable="true" type="tns2:CustomerTravelsRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getCustomerTravelsResponse">
+    <complexType>
+     <sequence>
+      <element name="getCustomerTravelsReturn" nillable="true" type="impl:ArrayOf_629034958_nillable_CustomerTravelsRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlEscursioni">
+    <complexType>
+     <sequence>
+      <element name="xmlEscursioniRq" nillable="true" type="tns2:XmlEscursioniRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlEscursioniResponse">
+    <complexType>
+     <sequence>
+      <element name="getXmlEscursioniReturn" nillable="true" type="tns3:XmlEscursioniRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlSchedaProdotto">
+    <complexType>
+     <sequence>
+      <element name="xmlSchedaProdottoRequest" nillable="true" type="tns2:XmlSchedaProdottoRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlSchedaProdottoResponse">
+    <complexType>
+     <sequence>
+      <element name="getXmlSchedaProdottoReturn" nillable="true" type="tns3:XmlSchedaProdottoRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addTravel">
+    <complexType>
+     <sequence>
+      <element name="addTravelRequest" nillable="true" type="tns2:AddTravelRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addTravelResponse">
+    <complexType>
+     <sequence>
+      <element name="addTravelReturn" nillable="true" type="tns3:AddTravelRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="saveSurveyFeedbacks">
+    <complexType>
+     <sequence>
+      <element name="surveyFeedbacksRequest" nillable="true" type="impl:ArrayOf_629034958_nillable_SurveyFeedbacksRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="saveSurveyFeedbacksResponse">
+    <complexType>
+     <sequence>
+      <element name="saveSurveyFeedbacksReturn" nillable="true" type="tns5:SurveyFeedbacksRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getAllCategories">
+    <complexType>
+     <sequence/>
+    </complexType>
+   </element>
+   <element name="getAllCategoriesResponse">
+    <complexType>
+     <sequence>
+      <element name="getAllCategoriesReturn" nillable="true" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlDocViaggio">
+    <complexType>
+     <sequence>
+      <element name="xmlDocViaggioRequest" nillable="true" type="tns2:XmlDocViaggioRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlDocViaggioResponse">
+    <complexType>
+     <sequence>
+      <element name="getXmlDocViaggioReturn" nillable="true" type="tns3:XmlDocViaggioRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlProgrammaAnimazione">
+    <complexType>
+     <sequence>
+      <element name="xmlProgrammaAnimazioneRequest" nillable="true" type="tns2:XmlProgrammaAnimazioneRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlProgrammaAnimazioneResponse">
+    <complexType>
+     <sequence>
+      <element name="getXmlProgrammaAnimazioneReturn" nillable="true" type="tns3:XmlProgrammaAnimazioneRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlAssistenza">
+    <complexType>
+     <sequence>
+      <element name="xmlAssistenzaRequest" nillable="true" type="tns2:XmlAssistenzaRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getXmlAssistenzaResponse">
+    <complexType>
+     <sequence>
+      <element name="getXmlAssistenzaReturn" nillable="true" type="tns3:XmlAssistenzaRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getSurveyQuestions">
+    <complexType>
+     <sequence>
+      <element name="surveyQuestionRequest" nillable="true" type="tns2:SurveyQuestionRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getSurveyQuestionsResponse">
+    <complexType>
+     <sequence>
+      <element name="getSurveyQuestionsReturn" nillable="true" type="tns3:SurveyQuestionRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="registerUser">
+    <complexType>
+     <sequence>
+      <element name="registerUserRequest" nillable="true" type="tns2:RegisterUserRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="registerUserResponse">
+    <complexType>
+     <sequence>
+      <element name="registerUserReturn" nillable="true" type="tns3:RegisterUserRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getCustomerProfile">
+    <complexType>
+     <sequence>
+      <element name="customerProfileRequest" nillable="true" type="tns2:CustomerProfileRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getCustomerProfileResponse">
+    <complexType>
+     <sequence>
+      <element name="getCustomerProfileReturn" nillable="true" type="tns3:CustomerProfileRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getNewsDetail">
+    <complexType>
+     <sequence>
+      <element name="newsRequest" nillable="true" type="tns2:NewsRq"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getNewsDetailResponse">
+    <complexType>
+     <sequence>
+      <element name="getNewsDetailReturn" nillable="true" type="tns3:NewsRs"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="checkHotelType">
+    <complexType>
+     <sequence>
+      <element name="brand" nillable="true" type="xsd:string"/>
+      <element name="pratica" nillable="true" type="xsd:string"/>
+      <element name="codhotel" nillable="true" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <complexType name="ArrayOf_629034958_nillable_NewsListRs">
+    <sequence>
+     <element maxOccurs="unbounded" minOccurs="0" name="NewsListRs" nillable="true" type="tns3:NewsListRs"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOf_629034958_nillable_CustomerTravelsRs">
+    <sequence>
+     <element maxOccurs="unbounded" minOccurs="0" name="CustomerTravelsRs" nillable="true" type="tns3:CustomerTravelsRs"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOf_629034958_nillable_SurveyFeedbacksRq">
+    <sequence>
+     <element maxOccurs="unbounded" minOccurs="0" name="SurveyFeedbacksRq" nillable="true" type="tns5:SurveyFeedbacksRq"/>
+    </sequence>
+   </complexType>
+  </schema>
+    <schema targetNamespace="http://request.model.travelapp.wspublic.alpi" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns3="http://response.model.travelapp.wspublic.alpi" xmlns:tns4="http://common.model.travelapp.wspublic.alpi" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://response.model.travelapp.wspublic.alpi"/>
+   <import namespace="http://common.model.travelapp.wspublic.alpi"/>
+   <complexType name="TravelDetailsRq">
+    <sequence>
+     <element name="brand" nillable="true" type="xsd:string"/>
+     <element name="numPratica" nillable="true" type="xsd:string"/>
+     <element name="departureDate" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="NewsListRq">
+    <sequence>
+     <element name="brand" nillable="true" type="xsd:string"/>
+     <element name="annoCod" nillable="true" type="xsd:string"/>
+     <element name="progCod" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlPreventivoRq">
+    <sequence>
+     <element name="brand" nillable="true" type="xsd:string"/>
+     <element name="numPratica" nillable="true" type="xsd:string"/>
+     <element name="codiceAgenzia" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="CheckAuthenticationRq">
+    <sequence>
+     <element name="user" nillable="true" type="xsd:string"/>
+     <element name="password" nillable="true" type="xsd:string"/>
+     <element name="facebookID" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="UpdateCustomerProfileRq">
+    <complexContent>
+     <extension base="tns4:CustomerProfileData">
+      <sequence>
+       <element name="annoCod" nillable="true" type="xsd:string"/>
+       <element name="progCod" nillable="true" type="xsd:string"/>
+       <element name="newsletters" nillable="true" type="tns2:ArrayOf_1486529744_nillable_NewsletterObj"/>
+       <element name="birthDate" nillable="true" type="xsd:string"/>
+      </sequence>
+     </extension>
+    </complexContent>
+   </complexType>
+   <complexType name="ArrayOf_1486529744_nillable_NewsletterObj">
+    <sequence>
+     <element maxOccurs="unbounded" minOccurs="0" name="NewsletterObj" nillable="true" type="tns3:NewsletterObj"/>
+    </sequence>
+   </complexType>
+   <complexType name="RetrievePasswordRq">
+    <sequence>
+     <element name="user" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ModifyPasswordRq">
+    <sequence>
+     <element name="user" nillable="true" type="xsd:string"/>
+     <element name="oldPassword" nillable="true" type="xsd:string"/>
+     <element name="newPassword" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="CustomerTravelsRq">
+    <sequence>
+     <element name="annoCod" nillable="true" type="xsd:string"/>
+     <element name="progCod" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlEscursioniRq">
+    <sequence>
+     <element name="brand" nillable="true" type="xsd:string"/>
+     <element name="stagione" nillable="true" type="xsd:string"/>
+     <element name="keydCode" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlSchedaProdottoRq">
+    <sequence>
+     <element name="codVacanza" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="AddTravelRq">
+    <sequence>
+     <element name="cuni" nillable="true" type="xsd:string"/>
+     <element name="brand" nillable="true" type="xsd:string"/>
+     <element name="numPratica" nillable="true" type="xsd:string"/>
+     <element name="departureDate" nillable="true" type="xsd:string"/>
+     <element name="annoCod" nillable="true" type="xsd:string"/>
+     <element name="progCod" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlDocViaggioRq">
+    <sequence>
+     <element name="brand" nillable="true" type="xsd:string"/>
+     <element name="numPratica" nillable="true" type="xsd:string"/>
+     <element name="dataPartenza" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlProgrammaAnimazioneRq">
+    <sequence>
+     <element name="brand" nillable="true" type="xsd:string"/>
+     <element name="hotelCode" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlAssistenzaRq">
+    <sequence>
+     <element name="brand" nillable="true" type="xsd:string"/>
+     <element name="hotelCode" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="SurveyQuestionRq">
+    <sequence>
+     <element name="surveyID" nillable="true" type="xsd:string"/>
+     <element name="currentDate" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="RegisterUserRq">
+    <sequence>
+     <element name="cuni" nillable="true" type="xsd:string"/>
+     <element name="email" nillable="true" type="xsd:string"/>
+     <element name="password" nillable="true" type="xsd:string"/>
+     <element name="firstName" nillable="true" type="xsd:string"/>
+     <element name="lastName" nillable="true" type="xsd:string"/>
+     <element name="cellNumber" nillable="true" type="xsd:string"/>
+     <element name="mktAuth" nillable="true" type="xsd:string"/>
+     <element name="profilingAuth" nillable="true" type="xsd:string"/>
+     <element name="birthDate" nillable="true" type="xsd:string"/>
+     <element name="consensoSocial" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="CustomerProfileRq">
+    <sequence>
+     <element name="annoCod" nillable="true" type="xsd:string"/>
+     <element name="progCod" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="NewsRq">
+    <sequence>
+     <element name="guid" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+  </schema>
+    <schema targetNamespace="http://response.model.travelapp.wspublic.alpi" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <complexType name="TravelDetailsRs">
+    <sequence>
+     <element name="numPratica" nillable="true" type="xsd:string"/>
+     <element name="departureDate" nillable="true" type="xsd:string"/>
+     <element name="brand" nillable="true" type="xsd:string"/>
+     <element name="totPax" nillable="true" type="xsd:string"/>
+     <element name="child" nillable="true" type="xsd:string"/>
+     <element name="numDay" nillable="true" type="xsd:string"/>
+     <element name="codAdv" nillable="true" type="xsd:string"/>
+     <element name="descrAdv" nillable="true" type="xsd:string"/>
+     <element name="travelType" nillable="true" type="xsd:string"/>
+     <element name="description" nillable="true" type="xsd:string"/>
+     <element name="aptDept" nillable="true" type="xsd:string"/>
+     <element name="aptArr" nillable="true" type="xsd:string"/>
+     <element name="aptDeptDescription" nillable="true" type="xsd:string"/>
+     <element name="aptArrDescription" nillable="true" type="xsd:string"/>
+     <element name="hotelCode" nillable="true" type="xsd:string"/>
+     <element name="hotelDescription" nillable="true" type="xsd:string"/>
+     <element name="codVacanza" nillable="true" type="xsd:string"/>
+     <element name="tipoHotel" nillable="true" type="xsd:string"/>
+     <element name="codCeva" nillable="true" type="xsd:string"/>
+     <element name="dataOrdine" nillable="true" type="xsd:string"/>
+     <element name="estrattoContoCliente" nillable="true" type="xsd:string"/>
+     <element name="xmlPreventivo" nillable="true" type="tns3:XmlPreventivoRs"/>
+     <element name="travelCategory" nillable="true" type="xsd:string"/>
+     <element name="hotelType" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlPreventivoRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="content" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="NewsListRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="urlImmagine" nillable="true" type="xsd:string"/>
+     <element name="caption" nillable="true" type="xsd:string"/>
+     <element name="dataPubblicazione" nillable="true" type="xsd:string"/>
+     <element name="guid" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="CheckAuthenticationRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="loyaltyCardNumber" nillable="true" type="xsd:string"/>
+     <element name="mareItaliaCardNumber" nillable="true" type="xsd:string"/>
+     <element name="annoCod" nillable="true" type="xsd:string"/>
+     <element name="progCod" nillable="true" type="xsd:string"/>
+     <element name="typePassword" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="NewsletterObj">
+    <sequence>
+     <element name="newsletterId" nillable="true" type="xsd:string"/>
+     <element name="newsletterDescr" nillable="true" type="xsd:string"/>
+     <element name="isRegisteredFlag" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="UpdateCustomerProfileRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="RetrievePasswordRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ModifyPasswordRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="CustomerTravelsRs">
+    <sequence>
+     <element name="mareitaliaCardNumber" nillable="true" type="xsd:string"/>
+     <element name="numPratica" nillable="true" type="xsd:string"/>
+     <element name="departureDate" nillable="true" type="xsd:string"/>
+     <element name="description" nillable="true" type="xsd:string"/>
+     <element name="brand" nillable="true" type="xsd:string"/>
+     <element name="azienda" nillable="true" type="xsd:string"/>
+     <element name="status" nillable="true" type="xsd:string"/>
+     <element name="urlImmagine" nillable="true" type="xsd:string"/>
+     <element name="scheduling" nillable="true" type="xsd:string"/>
+     <element name="keyd" nillable="true" type="xsd:string"/>
+     <element name="stagione" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlEscursioniRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="content" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlSchedaProdottoRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="content" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="AddTravelRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlDocViaggioRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="content" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlProgrammaAnimazioneRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="content" nillable="true" type="xsd:string"/>
+     <element name="brandizzato" type="xsd:boolean"/>
+    </sequence>
+   </complexType>
+   <complexType name="XmlAssistenzaRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="content" nillable="true" type="xsd:string"/>
+     <element name="brandizzato" type="xsd:boolean"/>
+    </sequence>
+   </complexType>
+   <complexType name="SurveyQuestionRs">
+    <sequence>
+     <element name="surveyID" nillable="true" type="xsd:string"/>
+     <element name="questions" nillable="true" type="tns3:ArrayOfQuestion"/>
+    </sequence>
+   </complexType>
+   <complexType name="Question">
+    <sequence>
+     <element name="answer" nillable="true" type="tns3:ArrayOfAnswer"/>
+     <element name="correctAnswerId" nillable="true" type="xsd:string"/>
+     <element name="description" nillable="true" type="xsd:string"/>
+     <element name="id" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="Answer">
+    <sequence>
+     <element name="description" nillable="true" type="xsd:string"/>
+     <element name="id" nillable="true" type="xsd:string"/>
+     <element name="urlImmagine" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOfAnswer">
+    <sequence>
+     <element maxOccurs="unbounded" minOccurs="0" name="Answer" nillable="true" type="tns3:Answer"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOfQuestion">
+    <sequence>
+     <element maxOccurs="unbounded" minOccurs="0" name="Question" nillable="true" type="tns3:Question"/>
+    </sequence>
+   </complexType>
+   <complexType name="RegisterUserRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="loyaltyCardNumber" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="CustomerProfileRs">
+    <sequence>
+     <element name="loyaltyCardNumber" nillable="true" type="xsd:string"/>
+     <element name="firstName" nillable="true" type="xsd:string"/>
+     <element name="lastName" nillable="true" type="xsd:string"/>
+     <element name="birthDate" nillable="true" type="xsd:string"/>
+     <element name="phoneNumber" nillable="true" type="xsd:string"/>
+     <element name="cellNumber" nillable="true" type="xsd:string"/>
+     <element name="email" nillable="true" type="xsd:string"/>
+     <element name="address" nillable="true" type="xsd:string"/>
+     <element name="city" nillable="true" type="xsd:string"/>
+     <element name="cap" nillable="true" type="xsd:string"/>
+     <element name="province" nillable="true" type="xsd:string"/>
+     <element name="country" nillable="true" type="xsd:string"/>
+     <element name="profession" nillable="true" type="xsd:string"/>
+     <element name="mktAuth" nillable="true" type="xsd:string"/>
+     <element name="profilingAuth" nillable="true" type="xsd:string"/>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="customerNewsletters" nillable="true" type="tns3:ArrayOfNewsletterObj"/>
+     <element name="socialAuth" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOfNewsletterObj">
+    <sequence>
+     <element maxOccurs="unbounded" minOccurs="0" name="NewsletterObj" nillable="true" type="tns3:NewsletterObj"/>
+    </sequence>
+   </complexType>
+   <complexType name="NewsRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+     <element name="urlImmagine" nillable="true" type="xsd:string"/>
+     <element name="testo" nillable="true" type="xsd:string"/>
+     <element name="urlButton" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+  </schema>
+    <schema targetNamespace="http://common.model.travelapp.wspublic.alpi" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <complexType name="CustomerProfileData">
+    <sequence>
+     <element name="cuni" nillable="true" type="xsd:string"/>
+     <element name="loyaltyCardNumber" nillable="true" type="xsd:string"/>
+     <element name="firstName" nillable="true" type="xsd:string"/>
+     <element name="lastName" nillable="true" type="xsd:string"/>
+     <element name="phoneNumber" nillable="true" type="xsd:string"/>
+     <element name="cellNumber" nillable="true" type="xsd:string"/>
+     <element name="email" nillable="true" type="xsd:string"/>
+     <element name="address" nillable="true" type="xsd:string"/>
+     <element name="streetNumber" nillable="true" type="xsd:string"/>
+     <element name="city" nillable="true" type="xsd:string"/>
+     <element name="cap" nillable="true" type="xsd:string"/>
+     <element name="province" nillable="true" type="xsd:string"/>
+     <element name="country" nillable="true" type="xsd:string"/>
+     <element name="profession" nillable="true" type="xsd:string"/>
+     <element name="mktAuth" nillable="true" type="xsd:string"/>
+     <element name="profilingAuth" nillable="true" type="xsd:string"/>
+     <element name="membershipProfile" nillable="true" type="xsd:string"/>
+     <element name="socialAuth" nillable="true" type="xsd:string"/>
+     <element name="softSpam" nillable="true" type="xsd:string"/>
+     <element name="prefEmailSoft" nillable="true" type="xsd:string"/>
+     <element name="prefPostaSoft" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+  </schema>
+    <schema targetNamespace="http://schemas.datacontract.org" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <complexType name="SurveyFeedbacksRq">
+    <sequence>
+     <element name="annoCod" nillable="true" type="xsd:string"/>
+     <element name="answer" nillable="true" type="xsd:string"/>
+     <element name="answerId" nillable="true" type="xsd:string"/>
+     <element name="azienda" nillable="true" type="xsd:string"/>
+     <element name="date" nillable="true" type="xsd:string"/>
+     <element name="pollId" nillable="true" type="xsd:string"/>
+     <element name="progCod" nillable="true" type="xsd:string"/>
+     <element name="questionId" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="SurveyFeedbacksRs">
+    <sequence>
+     <element name="returnCode" nillable="true" type="xsd:string"/>
+     <element name="returnMessage" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+  </schema>
+  </wsdl:types>
+  <wsdl:message name="retrievePasswordResponse">
+    <wsdl:part element="impl:retrievePasswordResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCustomerTravelsResponse">
+    <wsdl:part element="impl:getCustomerTravelsResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlSchedaProdottoResponse">
+    <wsdl:part element="impl:getXmlSchedaProdottoResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateCustomerProfileResponse">
+    <wsdl:part element="impl:updateCustomerProfileResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlDocViaggioResponse">
+    <wsdl:part element="impl:getXmlDocViaggioResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getSurveyQuestionsResponse">
+    <wsdl:part element="impl:getSurveyQuestionsResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlAssistenzaRequest">
+    <wsdl:part element="impl:getXmlAssistenza" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTravelDetailsResponse">
+    <wsdl:part element="impl:getTravelDetailsResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkHotelTypeResponse">
+    <wsdl:part element="impl:checkHotelTypeResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCustomerProfileRequest">
+    <wsdl:part element="impl:getCustomerProfile" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addTravelResponse">
+    <wsdl:part element="impl:addTravelResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="retrievePasswordRequest">
+    <wsdl:part element="impl:retrievePassword" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAllCategoriesRequest">
+    <wsdl:part element="impl:getAllCategories" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTravelDetailsRequest">
+    <wsdl:part element="impl:getTravelDetails" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="saveSurveyFeedbacksRequest">
+    <wsdl:part element="impl:saveSurveyFeedbacks" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlPreventivoRequest">
+    <wsdl:part element="impl:getXmlPreventivo" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlDocViaggioRequest">
+    <wsdl:part element="impl:getXmlDocViaggio" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="saveSurveyFeedbacksResponse">
+    <wsdl:part element="impl:saveSurveyFeedbacksResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addTravelRequest">
+    <wsdl:part element="impl:addTravel" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlEscursioniRequest">
+    <wsdl:part element="impl:getXmlEscursioni" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateCustomerProfileRequest">
+    <wsdl:part element="impl:updateCustomerProfile" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="modifyPasswordRequest">
+    <wsdl:part element="impl:modifyPassword" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="registerUserResponse">
+    <wsdl:part element="impl:registerUserResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlSchedaProdottoRequest">
+    <wsdl:part element="impl:getXmlSchedaProdotto" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkUserAuthenticationRequest">
+    <wsdl:part element="impl:checkUserAuthentication" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlProgrammaAnimazioneRequest">
+    <wsdl:part element="impl:getXmlProgrammaAnimazione" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="registerUserRequest">
+    <wsdl:part element="impl:registerUser" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlAssistenzaResponse">
+    <wsdl:part element="impl:getXmlAssistenzaResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkHotelTypeRequest">
+    <wsdl:part element="impl:checkHotelType" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getNewsDetailRequest">
+    <wsdl:part element="impl:getNewsDetail" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAllCategoriesResponse">
+    <wsdl:part element="impl:getAllCategoriesResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkUserAuthenticationResponse">
+    <wsdl:part element="impl:checkUserAuthenticationResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getNewsListResponse">
+    <wsdl:part element="impl:getNewsListResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getNewsListRequest">
+    <wsdl:part element="impl:getNewsList" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCustomerTravelsRequest">
+    <wsdl:part element="impl:getCustomerTravels" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlPreventivoResponse">
+    <wsdl:part element="impl:getXmlPreventivoResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getNewsDetailResponse">
+    <wsdl:part element="impl:getNewsDetailResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlProgrammaAnimazioneResponse">
+    <wsdl:part element="impl:getXmlProgrammaAnimazioneResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getSurveyQuestionsRequest">
+    <wsdl:part element="impl:getSurveyQuestions" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="modifyPasswordResponse">
+    <wsdl:part element="impl:modifyPasswordResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getXmlEscursioniResponse">
+    <wsdl:part element="impl:getXmlEscursioniResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCustomerProfileResponse">
+    <wsdl:part element="impl:getCustomerProfileResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="TravelAppHandler">
+    <wsdl:operation name="checkHotelType">
+      <wsdl:input message="impl:checkHotelTypeRequest" name="checkHotelTypeRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:checkHotelTypeResponse" name="checkHotelTypeResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTravelDetails">
+      <wsdl:input message="impl:getTravelDetailsRequest" name="getTravelDetailsRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getTravelDetailsResponse" name="getTravelDetailsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNewsList">
+      <wsdl:input message="impl:getNewsListRequest" name="getNewsListRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getNewsListResponse" name="getNewsListResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlPreventivo">
+      <wsdl:input message="impl:getXmlPreventivoRequest" name="getXmlPreventivoRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getXmlPreventivoResponse" name="getXmlPreventivoResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkUserAuthentication">
+      <wsdl:input message="impl:checkUserAuthenticationRequest" name="checkUserAuthenticationRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:checkUserAuthenticationResponse" name="checkUserAuthenticationResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateCustomerProfile">
+      <wsdl:input message="impl:updateCustomerProfileRequest" name="updateCustomerProfileRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:updateCustomerProfileResponse" name="updateCustomerProfileResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retrievePassword">
+      <wsdl:input message="impl:retrievePasswordRequest" name="retrievePasswordRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:retrievePasswordResponse" name="retrievePasswordResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modifyPassword">
+      <wsdl:input message="impl:modifyPasswordRequest" name="modifyPasswordRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:modifyPasswordResponse" name="modifyPasswordResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCustomerTravels">
+      <wsdl:input message="impl:getCustomerTravelsRequest" name="getCustomerTravelsRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getCustomerTravelsResponse" name="getCustomerTravelsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlEscursioni">
+      <wsdl:input message="impl:getXmlEscursioniRequest" name="getXmlEscursioniRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getXmlEscursioniResponse" name="getXmlEscursioniResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlSchedaProdotto">
+      <wsdl:input message="impl:getXmlSchedaProdottoRequest" name="getXmlSchedaProdottoRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getXmlSchedaProdottoResponse" name="getXmlSchedaProdottoResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addTravel">
+      <wsdl:input message="impl:addTravelRequest" name="addTravelRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:addTravelResponse" name="addTravelResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveSurveyFeedbacks">
+      <wsdl:input message="impl:saveSurveyFeedbacksRequest" name="saveSurveyFeedbacksRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:saveSurveyFeedbacksResponse" name="saveSurveyFeedbacksResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllCategories">
+      <wsdl:input message="impl:getAllCategoriesRequest" name="getAllCategoriesRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getAllCategoriesResponse" name="getAllCategoriesResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlDocViaggio">
+      <wsdl:input message="impl:getXmlDocViaggioRequest" name="getXmlDocViaggioRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getXmlDocViaggioResponse" name="getXmlDocViaggioResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlProgrammaAnimazione">
+      <wsdl:input message="impl:getXmlProgrammaAnimazioneRequest" name="getXmlProgrammaAnimazioneRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getXmlProgrammaAnimazioneResponse" name="getXmlProgrammaAnimazioneResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlAssistenza">
+      <wsdl:input message="impl:getXmlAssistenzaRequest" name="getXmlAssistenzaRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getXmlAssistenzaResponse" name="getXmlAssistenzaResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSurveyQuestions">
+      <wsdl:input message="impl:getSurveyQuestionsRequest" name="getSurveyQuestionsRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getSurveyQuestionsResponse" name="getSurveyQuestionsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registerUser">
+      <wsdl:input message="impl:registerUserRequest" name="registerUserRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:registerUserResponse" name="registerUserResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCustomerProfile">
+      <wsdl:input message="impl:getCustomerProfileRequest" name="getCustomerProfileRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getCustomerProfileResponse" name="getCustomerProfileResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNewsDetail">
+      <wsdl:input message="impl:getNewsDetailRequest" name="getNewsDetailRequest">
+    </wsdl:input>
+      <wsdl:output message="impl:getNewsDetailResponse" name="getNewsDetailResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TravelAppHandlerSoapBinding" type="impl:TravelAppHandler">
+<wsaw:UsingAddressing wsdl:required="false"/>
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="checkHotelType">
+      <wsdlsoap:operation soapAction="checkHotelType"/>
+      <wsdl:input name="checkHotelTypeRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="checkHotelTypeResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTravelDetails">
+      <wsdlsoap:operation soapAction="getTravelDetails"/>
+      <wsdl:input name="getTravelDetailsRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getTravelDetailsResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNewsList">
+      <wsdlsoap:operation soapAction="getNewsList"/>
+      <wsdl:input name="getNewsListRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getNewsListResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlPreventivo">
+      <wsdlsoap:operation soapAction="getXmlPreventivo"/>
+      <wsdl:input name="getXmlPreventivoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getXmlPreventivoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkUserAuthentication">
+      <wsdlsoap:operation soapAction="checkUserAuthentication"/>
+      <wsdl:input name="checkUserAuthenticationRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="checkUserAuthenticationResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateCustomerProfile">
+      <wsdlsoap:operation soapAction="updateCustomerProfile"/>
+      <wsdl:input name="updateCustomerProfileRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateCustomerProfileResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retrievePassword">
+      <wsdlsoap:operation soapAction="retrievePassword"/>
+      <wsdl:input name="retrievePasswordRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="retrievePasswordResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modifyPassword">
+      <wsdlsoap:operation soapAction="modifyPassword"/>
+      <wsdl:input name="modifyPasswordRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="modifyPasswordResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCustomerTravels">
+      <wsdlsoap:operation soapAction="getCustomerTravels"/>
+      <wsdl:input name="getCustomerTravelsRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getCustomerTravelsResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlEscursioni">
+      <wsdlsoap:operation soapAction="getXmlEscursioni"/>
+      <wsdl:input name="getXmlEscursioniRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getXmlEscursioniResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlSchedaProdotto">
+      <wsdlsoap:operation soapAction="getXmlSchedaProdotto"/>
+      <wsdl:input name="getXmlSchedaProdottoRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getXmlSchedaProdottoResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addTravel">
+      <wsdlsoap:operation soapAction="addTravel"/>
+      <wsdl:input name="addTravelRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="addTravelResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saveSurveyFeedbacks">
+      <wsdlsoap:operation soapAction="saveSurveyFeedbacks"/>
+      <wsdl:input name="saveSurveyFeedbacksRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="saveSurveyFeedbacksResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllCategories">
+      <wsdlsoap:operation soapAction="getAllCategories"/>
+      <wsdl:input name="getAllCategoriesRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAllCategoriesResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlDocViaggio">
+      <wsdlsoap:operation soapAction="getXmlDocViaggio"/>
+      <wsdl:input name="getXmlDocViaggioRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getXmlDocViaggioResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlProgrammaAnimazione">
+      <wsdlsoap:operation soapAction="getXmlProgrammaAnimazione"/>
+      <wsdl:input name="getXmlProgrammaAnimazioneRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getXmlProgrammaAnimazioneResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getXmlAssistenza">
+      <wsdlsoap:operation soapAction="getXmlAssistenza"/>
+      <wsdl:input name="getXmlAssistenzaRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getXmlAssistenzaResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSurveyQuestions">
+      <wsdlsoap:operation soapAction="getSurveyQuestions"/>
+      <wsdl:input name="getSurveyQuestionsRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getSurveyQuestionsResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registerUser">
+      <wsdlsoap:operation soapAction="registerUser"/>
+      <wsdl:input name="registerUserRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="registerUserResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCustomerProfile">
+      <wsdlsoap:operation soapAction="getCustomerProfile"/>
+      <wsdl:input name="getCustomerProfileRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getCustomerProfileResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getNewsDetail">
+      <wsdlsoap:operation soapAction="getNewsDetail"/>
+      <wsdl:input name="getNewsDetailRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getNewsDetailResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TravelAppHandlerService">
+    <wsdl:port binding="impl:TravelAppHandlerSoapBinding" name="TravelAppHandler">
+      <wsdlsoap:address location="http://localhost:9083/WSPublic/services/TravelAppHandler"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

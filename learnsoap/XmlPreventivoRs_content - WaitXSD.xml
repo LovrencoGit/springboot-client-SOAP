@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preventivoDati>
+    <adulti>2</adulti>
+    <agenzia>25411</agenzia>
+    <alertApt>N</alertApt>
+    <anagClienti>
+        <cognome>CASTAGNO</cognome>
+        <dataNascita>14.06.1972</dataNascita>
+        <nome>PATRIZIO</nome>
+        <numCell>3356920848</numCell>
+        <tipo>MR</tipo>
+    </anagClienti>
+    <anagClienti>
+        <cognome>SALVIETTI</cognome>
+        <dataNascita>17.04.1972</dataNascita>
+        <nome>ANNA BEATRICE</nome>
+        <numCell />
+        <tipo>MS</tipo>
+    </anagClienti>
+    <anagClienti>
+        <cognome>CASTAGNO</cognome>
+        <dataNascita>06.01.2010</dataNascita>
+        <nome>SONIA</nome>
+        <numCell />
+        <tipo>CHD</tipo>
+    </anagClienti>
+    <azienda>BRAVO CLUB</azienda>
+    <child>1</child>
+    <codAzie>AL</codAzie>
+    <codiceIt>I8C5650</codiceIt>
+    <dataPartenza>22/04/19</dataPartenza>
+    <destinazione>MALDIVE BRAVO - VOLI SPECIALI</destinazione>
+    <durata>8</durata>
+    <ecAgenzia>
+        <commissione>
+            <calcolatoSu>5.125,00</calcolatoSu>
+            <percComm>20,50</percComm>
+            <totaleComm>-1.050,63</totaleComm>
+        </commissione>
+        <commissione>
+            <calcolatoSu>489,30</calcolatoSu>
+            <percComm>20,00</percComm>
+            <totaleComm>-97,86</totaleComm>
+        </commissione>
+        <noteEcAg />
+        <totaleCliente>6.433,32</totaleCliente>
+        <totaleNetto>5.284,83</totaleNetto>
+    </ecAgenzia>
+    <ecCliente>6.433,32</ecCliente>
+    <gruppo>CASTAGNO</gruppo>
+    <honeyMooners>S</honeyMooners>
+    <hotel id="1">
+        <categ>4S</categ>
+        <codeBcl />
+        <codiceHotel>43000</codiceHotel>
+        <descBreve>Pi&amp;#249; che mai c&amp;#8217;&amp;#232; identit&amp;#224; totale tra villaggio e territorio nel caso del Bravo Alimath&amp;#224;, che prende il nome dall&amp;#8217;isola su cui si estende per intero, all&amp;#8217;interno dell&amp;#8217;atollo di Vaavu, in mezzo all&amp;#8217;Oceano Indiano. Il segreto &amp;#232; saper rendere l&amp;#8217;ospitalit&amp;#224; allo stesso tempo discreta, ma perfetta come sempre, perch&amp;#233; &amp;#232; quasi superfluo specificare che a dominare &amp;#232; la natura, a partire dalla bellissima barriera corallina che si pu&amp;#242; ammirare con impareggiabili escursioni..</descBreve>
+        <kvac>43000I8LR</kvac>
+        <lati>3.59389</lati>
+        <localita>MALDIVE</localita>
+        <longi>73.4982</longi>
+        <nomeHotel>BRAVO ALIMATHA'</nomeHotel>
+        <noteHotel>
+            <testo>PROMO SPOSI: E'obbligatorio richiedere, all'atto della prenotazione,la documentazione comprovante il diritto del cliente ad usufruiredell'offerta, verificando che ne sussistano tutte le condizioni.Il cliente dovrà essere informato che tale documentazione dovrà essere esibita, su richiesta, durante la vacanza; in assenza di documentazione o dei requisiti richiesti, la differenza di  costosarà addebitata in estratto conto.  I CLIENTI CHE SOGGIORNANO IN CAMERE OVERWATER BUNGALOW HANNO IN DOTAZIONE 2 LETTINI SULLA TERRAZZA DI CIASCUNA CAMERA. POTRANNO INOLTRE USUFRUIRE DELLE ONDINE PRESENTI SULLA SPIAGGIA DELRESORT.  Ricordiamo che la regolamentazione per l'ingresso alle Maldive è variata ed è  ora richiesto il passaporto elettronico (per l'Italiasi tratta di passaporti emessi dopo il mese di ottobre 2006). IMPORTANTE! VISTO TURISTICO CONCESSO DIRETTAMENTE IN AEROPORTO ALL'INGRESSO NEL PAESE. DURATA MASSIMA 30 GG OLTRE I 30GG E'NECESSARIO INFORMARSI ALL'ATTO DELLA PRENOTAZIONEPER LA PROCEDURA DI ESTENSIONE.  IMPORTANTE IL PACCHETTO PRESTIGE PLUS DEVE ESSERE ACQUISTATO DA TUTTI GLI OCCUPANTI DELLA CAMERA. PER SOGGIORNI SUPERIORI A DUE SETTIMANE  E PER CLIENTI CHE SOGGIORNANO IN CAMERA SINGOLA LA QUOTAZIONE E' SU RICHIESTA.  IMPORTANTE! Eventuali richieste di assegnazione  camera  nr XXXX sono soltantosemplici segnalazioni che nessuna struttura può  garantire suo malgrado. Preghiamo PERTANTO  di informare i clienti in merito. la struttura farà  il possibile, riservandosi tuttavia la riconfermaunicamente in loco, previa dispo camere all'arrivo dei clienti. </testo>
+        </noteHotel>
+        <notti>7</notti>
+        <periodoDal>23/04/19</periodoDal>
+        <sistCam id="1">
+            <adulti>2</adulti>
+            <child>1</child>
+            <infant>0</infant>
+            <prezzoCamera>,00</prezzoCamera>
+            <prezzoTotale>,00</prezzoTotale>
+            <qta>1</qta>
+            <sistemaz>BEACH BUNGALOW 1/3 PERSONE</sistemaz>
+            <statoSist> OK</statoSist>
+            <suppRiduSistCam>
+                <descrizione>3 LETTO 2/12 ANNI BGW</descrizione>
+                <giorni>7</giorni>
+                <noteSuppCam />
+                <persone>  1</persone>
+                <prezzoServizio>,00</prezzoServizio>
+                <qta>7</qta>
+                <stato> OK</stato>
+            </suppRiduSistCam>
+            <suppRiduSistCam>
+                <descrizione>BRAVO SPOSI</descrizione>
+                <giorni />
+                <noteSuppCam />
+                <persone>  1</persone>
+                <prezzoServizio>,00</prezzoServizio>
+                <qta>1</qta>
+                <stato> OK</stato>
+            </suppRiduSistCam>
+            <suppRiduSistCam>
+                <descrizione>TASSA SOGG. DA PAGARE IN LOCO</descrizione>
+                <giorni>7</giorni>
+                <noteSuppCam />
+                <persone>  3</persone>
+                <prezzoServizio>,00</prezzoServizio>
+                <qta>7</qta>
+                <stato> OK</stato>
+            </suppRiduSistCam>
+            <trattam>    FORMULA TUTTO INCLUSO</trattam>
+        </sistCam>
+        <urlFoto>http://www.easybook.it/sc/4/3/0/0/0/Images/C_1546729.jpg</urlFoto>
+        <urlTipStr>http://www.easybook.it/sc/imgComuni/loghi_struttura/LS_1737929.png</urlTipStr>
+        <valutaz>5P</valutaz>
+    </hotel>
+    <id_azienda>4</id_azienda>
+    <inAlpi>false</inAlpi>
+    <inCGlobal>false</inCGlobal>
+    <infant>0</infant>
+    <mailAgenzia>saili@sailiviaggi.it</mailAgenzia>
+    <nomeAgenzia>SAILI VIAGGI</nomeAgenzia>
+    <noteAgenzia />
+    <noteEcCl />
+    <noteViaggio>
+        <testo>CONDIZIONI GENERALI DI CONTRATTOIl 1 luglio 2018 è  entrata in vigore in Italia la Direttiva UE 2015/2032 relativa ai pacchetti di viaggio. Richiedi alla tua agenzia il Modulo Informativo per la vendita di pacchetti turistici e le condizioni generali  di contratto di vendita di pacchetti turistici aggiornate. </testo>
+    </noteViaggio>
+    <noteViaggio>
+        <testo> ASSICURAZIONE CONTRO L'ANNULLAMENTOCome da vostra richiesta, è  stata inserita l' assicurazione facoltativa contro l'annullamento. Ricordiamo che il modulo di adesione deve essere sottoscritto dall'intestatario pratica e conservato dall'agenzia. . </testo>
+    </noteViaggio>
+    <noteViaggio>
+        <testo>DOCUMENTI DI ESPATRIOData la variabilità  della normativa, è  sempre necessario consultare, all' atto della prenotazione e in tempo utile prima della partenza, il sito www.viaggiaresicuri.it, dove il 2 marzo scorso è  stato pubblicato sul focus 'documenti per viaggi all' estero ' quanto     segue per i paesi   extra Schengen: 'Ai viaggiatori diretti all' estero si consiglia di munirsi sempre di passaporto, con validità  residua ed eventuale visto richiesti dal paese di destinazione (informarsi al riguardo presso il competente ufficio diplomatico-consolare in italia o con il proprio agente di viaggio). Si ricorda inoltre che: dal 26 giugno 2012  anche i minori devono essere muniti di documenti di viaggio individuale (si veda il sito internet dell' Unione Europea http://europa.eu/travel/doc/index_it.htm)' . </testo>
+    </noteViaggio>
+    <noteViaggio>
+        <testo>INFORMAZIONI SANITARIE / SICUREZZAVi ricordiamo che trattandosi di informazioni suscettibili di variazione/aggiornamenti, il cliente è tenuto a prendere visione delle informazioni riportate sul sito www.viaggiaresicuri.it e sul sito www.salute.gov.it prima del perfezionamento della praticae prima della partenza. . </testo>
+    </noteViaggio>
+    <noteViaggio>
+        <testo>penale 100% sull'euro zero/fast track e sala vip/servizi di biglietteria con commissione al 100%, dal giorno successivo alla conferma </testo>
+    </noteViaggio>
+    <noteViaggio>
+        <testo>La documentazione comprovante il diritto ad usufruire delle offerte dovrà  essere esibita in agenzia all atto della prenotazione e resa disponibile per eventuali controlli durante la vacanza. In assenza di documentazione o dei requisiti richiesti, il cliente sarà  tenuto al pagamento della differenza.   </testo>
+    </noteViaggio>
+    <numPratica>2578254</numPratica>
+    <operatore>OPERATORE E/B 03</operatore>
+    <parlatoCon />
+    <prezzoTotaleTasseVett>255,66</prezzoTotaleTasseVett>
+    <prezzoTotaleVett>,00</prezzoTotaleVett>
+    <reteAdv>25</reteAdv>
+    <scadenzaOpzione />
+    <schedaHotel>
+        <id>1</id>
+        <img1>http://www.easybook.it/sc/4/3/0/0/0/Images/C_1546729.jpg</img1>
+        <img2>http://www.easybook.it/sc/4/3/0/0/0/Images/I_1293714.jpg</img2>
+        <imgLogo>http://www.easybook.it/sc/imgComuni/loghi_struttura/LS_1737929.jpg</imgLogo>
+        <imgQR>http://www.easybook.it/sc/4/3/0/0/0/Images/LH_2000640.jpg</imgQR>
+        <servizioStruttura>
+            <descrizione>Il Bravo Alimath&amp;#224; si estende sull&amp;#8217;intera isola omonima a non molta distanza dalla linea dell&amp;#8217;equatore. Dista 65 km circa dall&amp;#8217;aeroporto di Mal&amp;#233; e il trasferimento in barca dura circa 1 ora e 30 minuti, variabile a seconda delle condizioni del mare; &amp;#200; possibile raggiungere il complesso anche in idrovolante, con un trasferimento della durata di 25 minuti circa.</descrizione>
+            <titolo>POSIZIONE</titolo>
+        </servizioStruttura>
+        <servizioStruttura>
+            <descrizione>Una spiaggia bianca di sabbia finissima lambita dalle splendide acque dell&amp;#8217;Oceano Indiano e circondata dalla coloratissima barriera corallina, tutta da scoprire con divertenti uscite di snorkeling o suggestive immersioni organizzate dal centro diving.&lt;br&gt;&lt;/br&gt;All&amp;#8217; ombra di alte palme tropicali, gli ospiti che soggiornano nei beach bungalow e garden bungalow hanno in dotazione 2 lettini in spiaggia. Gli ospiti sistemati in over water bungalow hanno due lettini posizionati sulla terrazza di ciascuna camera, mentre sulla spiaggia del villaggio potranno usufruire solo delle ondine. Teli mare gratuiti.</descrizione>
+            <titolo>SPIAGGIA</titolo>
+        </servizioStruttura>
+        <servizioStruttura>
+            <descrizione>Il Resort offre sistemazione in Beach Bungalow, Garden Bungalow e Over Water Bungalow. I beach Bungalow sono 96 (occupazione massima 4 adulti) con affaccio diretto sulla spiaggia, i Garden Bungalow sono 26 (massima occupazione 3 adulti) con affaccio su un piccolo giardino loro riservato. Entrambe le tipologie di camera sono immerse nel verde e delle palme e con tetti ricoperti da foglie di palma essiccate e sono tutte dotate di patio di legno. Gli Over Water Bungalow sono 34 (massima occupazione 3 adulti a partire da 12 anni compiuti) sono costruiti su palafitte e si affacciano con la loro terrazza sulle splendide acque dell'Oceano Indiano.&lt;br&gt;&lt;/br&gt;Tutti i bungalow dispongono di servizi privati, doccia, asciugacapelli, aria condizionata, ventilatore a soffitto, frigobar (con consumazioni a pagamento) e cassetta di sicurezza. I Beach Bungalow i Garden Bungalow hanno in dotazione due lettini in spiaggia, gli Over Water Bungalow hanno a disposizione due lettini posizionati sulla terrazza di ciascuna camera. Nell'area sulla spiaggia sono a disposizione degli ospiti soggiornati in Over Water Bungalow alcuni lettini e ondine per uso occasionale.&lt;br&gt;&lt;/br&gt;A partire dal 1 maggio 2018 l'hotel offrir&amp;#224; ai clienti in Over Water Bungalow l'accesso WIFI in camera (per un dispositivo) free.</descrizione>
+            <titolo>STRUTTURA E CAMERE</titolo>
+        </servizioStruttura>
+        <servizioStruttura>
+            <descrizione>La Formula Tutto Incluso consente di gustare l&amp;#8217;ottima cucina Bravo presso il ristorante principale, con bevande incluse durante i pasti (acqua in caraffa, vino bianco, soft drink e birra tutti serviti in bicchiere, caff&amp;#232; all&amp;#8217;americana e t&amp;#232;) e di usuffruire del servizio open bar con aperitivi, cocktail e bevande alcoliche e analcoliche in bicchiere presso il bar della struttura con appuntamenti gastronomici e per spuntini dolci e salati. Per gli ospiti che soggiorneranno in Over Water Bungalow &amp;#232; a disposizione il nuovo adiacente Sunset Bar. &lt;br&gt;&lt;/br&gt;A pagamento bevande in bottiglia e in lattina alcoliche e superalcoliche di marche primarie e internazionali e succhi e frullati di frutta fresca, frapp&amp;#232;, caff&amp;#232; espresso, cappuccino e gelati. Sono a pagamento anche le consumazioni dopo le ore 24 e tutto quanto proposto dal men&amp;#249; del Barabaru Caf&amp;#232;&amp;#38;Restaurant (su prenotazione).</descrizione>
+            <titolo>GUSTO</titolo>
+        </servizioStruttura>
+        <servizioStruttura>
+            <descrizione>I servizi offerti dal Bravo Alimath&amp;#224; contribuiscono a rendere la vacanza ancora pi&amp;#249; esclusiva. Si pu&amp;#242; decidere di rilassarsi sulla spiaggia di sabbia bianca finissima, oppure scegliere di praticare sport tra le innumerevoli proposte: windsurf, canoa, beach-volley, pallavolo, beach-tennis, bocce, ping-pong, calcio balilla, palestra, campo da calcio a 5 e campo da tennis, entrambi in erba sintetica. Tra i servizi a pagamento noleggio di boccaglio, maschera e pinne per lo snorkeling, pesca al bolentino e al traino in barca e centro diving. &amp;#200; inoltre possibile noleggiare racchette da tennis, catamarani e dhoni, tipiche imbarcazioni delle Maldive.</descrizione>
+            <titolo>SPORT</titolo>
+        </servizioStruttura>
+        <servizioStruttura>
+            <descrizione>In villaggio &amp;#232; presente un&amp;#8217;area TV e un&amp;#8217;area dedicata ai bambini e ai teenager. A pagamento: uno shop bazar, una boutique, un centro massaggi e un piccolo negozio di attrezzatura subacquea. Sono altres&amp;#236; a pagamento telefono o fax e connessione internet Wi-Fi; &amp;#232; presente un punto di primo soccorso ed &amp;#232; garantita la presenza di un medico italiano nel villaggio.</descrizione>
+            <titolo>SERVIZI</titolo>
+        </servizioStruttura>
+        <servizioStruttura>
+            <descrizione>Per chi ha sempre sognato sposarsi su una spiaggia corallina in un&amp;#8217;atmosfera esotica, non c&amp;#8217;&amp;#232; niente di meglio che realizzare il sogno ad Alimath&amp;#224;. Il momento prescelto &amp;#232; il tramonto per rendere la cerimonia pi&amp;#249; magica e romantica. Accompagnati dal suono dei tamburi (boduberu), gli sposi salperanno a bordo di un dhoni addobbato con foglie di palma per un giro dell&amp;#8217;isola. Al loro rientro verranno accompagnati, lungo un sentiero decorato di foglie di palma, al luogo della cerimonia: un grande cuore formato da fiori sulla sabbia. Il pi&amp;#249; anziano dei Maldiviani presenti sull&amp;#8217;isola legger&amp;#224; le promesse in lingua dhivehi, la stessa del documento che verr&amp;#224; poi consegnato alla coppia in ricordo delle nozze. Il rito &amp;#232; simbolico e privo di validit&amp;#224; legale. Il giorno dell&amp;#8217;evento viene deciso e fissato dal villaggio anche in funzione delle condizioni meteorologiche. Richiedi questo pacchetto opzionale all&amp;#8217;atto della prenotazione.</descrizione>
+            <titolo>MATRIMONIO MALDIVIANO</titolo>
+        </servizioStruttura>
+        <servizioStruttura>
+            <descrizione>Le Maldive sono oggi considerate una tra le migliori destinazione al mondo per la subacquea data l&amp;#8217;incredibile variet&amp;#224; della fauna marina, la temperatura dell&amp;#8217;acqua mai al di sotto dei 27 gradi e la grande attenzione da parte delle autorit&amp;#224; locali alla sicurezza dei subacquei. Lo snorkeling merita una menzione particolare: sempre di pi&amp;#249; le escursioni sono condotte da professionisti, usando ottimo equipaggiamento e, obbligatoriamente, il giubbetto equilibratore e/o la muta in neoprene. Il centro diving di Alimath&amp;#224; conduce settimanalmente, escursioni di snorkeling diurne e notturne per ammirare la fantastica vita della barriera corallina. ll centro diving di Alimath&amp;#224; &amp;#232; gestito da TGI, organizzazione che opera alle Maldive da oltre trent&amp;#8217;anni. &amp;#200; un centro SSI Instructor Training Resort - il pi&amp;#249; alto riconoscimento SSI - ed &amp;#232; autorizzato a condurre tutti i corsi SSI, dallo Scuba Ranger (et&amp;#224; minima 8 anni) sino ai Corsi Istruttori. Gli Istruttori del centro sono tutti professionisti SSI con alle spalle anni di esperienza. I corsi sono condotti in varie lingue, avvalendosi di tutto il materiale didattico necessario. Il centro dispone di aule per teoria, un centro foto e video completamente attrezzato, equipaggiamenti all&amp;#8217;avanguardia e imbarcazioni con ossigeno a bordo. Sono accettati tutti i brevetti riconosciuti dal RSTC - Recreational Scuba Training Council.&lt;br&gt;&lt;/br&gt;Le dotazioni del centro: 30 equipaggiamenti completi; 50 bombole da 10 e 12 litri in acciaio e 50 bombole da 12 litri in alluminio, tutte con attacco INT/DIN; 1 stazione di ricarica aria/Nitrox con compressore BAUER Verticus; 1 compressore BAUER KAP 14, 1 compressore L&amp;#38;W 480, 1 compressore BAUER Capitano; 2 barche dhoni da 12 diver ciascuno.&lt;br&gt;&lt;/br&gt;La camera iperbarica pi&amp;#249; vicina &amp;#232; a Mal&amp;#232;, raggiungibile in circa 90&amp;#8217; con barca veloce o 20&amp;#8217; in idrovolante.&lt;br&gt;&lt;/br&gt;L&amp;#8217;assicurazione DAN &amp;#232; obbligatoria ed &amp;#232; disponibile presso il centro con formula breve da 1, 7 o 14 giorni.</descrizione>
+            <titolo> DIVING</titolo>
+        </servizioStruttura>
+        <servizioStruttura>
+            <descrizione>IDROVOLANTE: &lt;br&gt;&lt;/br&gt;i voli effettuati dalla locale compagnia aerea Trans Maldivian Airways hanno capienza massima di 14/15 persone; sono possibili attese alla partenza fino a tre ore dall&amp;#8217;accettazione, talvolta, in considerazione del limitato numero di aeromobili disponibili e delle condizioni meteo, le attese possono anche essere superiori. Sono&lt;br&gt;&lt;/br&gt;inoltri possibili scali intermedi presso altri Resort. Gli idrovolanti non sono previsti in abbinamento a voli in partenza prima delle 8,30 e in arrivo dopo le 15,05 da/per Mal&amp;#233;.&lt;br&gt;&lt;/br&gt;                            &lt;br&gt;&lt;/br&gt;BARCA VELOCE: i trasferimenti in barca non sono previsti in abbinamento a voli in partenza prima delle 9,00 e in arrivo dopo le 16,00 da/per Mal&amp;#233;. Laddove possibile,&lt;br&gt;&lt;/br&gt;un cliente che abbia prenotato un trasferimento in barca veloce pu&amp;#242; decidere di effettuare il trasferimento in idrovolante (con relativo supplemento).&lt;br&gt;&lt;/br&gt;                            &lt;br&gt;&lt;/br&gt;NOTA BENE: per i trasferimenti in idrovolante e barca veloce &amp;#232; consentito il trasporto di kg 20 di bagaglio e kg 5 di bagaglio a mano per persona (infant esclusi); l&amp;#8217;eventuale&lt;br&gt;&lt;/br&gt;eccedenza bagaglio comporta l&amp;#8217;addebito di Usd 5 circa per ogni kg eccedente con pagamento diretto. Le compagnie di trasporto si riservano inoltre il diritto di trasportare i bagagli con un volo/barca successivi a quello del passeggero, si consiglia pertanto di portare nel bagaglio a mano un cambio e un costume da bagno per l&amp;#8217;eventuale attesa. Inoltre, in caso di ritardi aerei e/o condizioni meteorologiche avverse tali da compromettere temporaneamente i collegamenti con le isole, potrebbe&lt;br&gt;&lt;/br&gt;rendersi necessario un pernottamento in transito a Mal&amp;#233; ad inizio e/o fine soggiorno. Il costo dei pernottamenti non usufruiti al Bravo Alimath&amp;#224; non sar&amp;#224; rimborsato, mentre&lt;br&gt;&lt;/br&gt;il pernottamento a Mal&amp;#233; sar&amp;#224; a carico del Tour Operator. I nostri assistenti e/o il personale del corrispondente locale garantiranno la migliore assistenza al fine di limitare al massimo eventuali disagi.</descrizione>
+            <titolo>TRASFERIMENTI</titolo>
+        </servizioStruttura>
+        <tipoStruttura>VIL</tipoStruttura>
+        <titolo>BRAVO ALIMATHA'</titolo>
+    </schedaHotel>
+    <servViaggio>
+        <descrizione>QUOTE IND.GEST. PRATICA</descrizione>
+        <giorni>0</giorni>
+        <id>10</id>
+        <persone>3</persone>
+        <prezzoServizio>255,00</prezzoServizio>
+        <qta>0</qta>
+        <tipo>QUOTA ISCRIZIONE</tipo>
+    </servViaggio>
+    <servViaggio>
+        <descrizione>QUOTA SMART</descrizione>
+        <giorni>0</giorni>
+        <id>10</id>
+        <persone>3</persone>
+        <prezzoServizio>6150,00</prezzoServizio>
+        <qta>0</qta>
+        <tipo>QUOTA PACCHETTO</tipo>
+    </servViaggio>
+    <servViaggio>
+        <descrizione>RIDUZIONE 1' BAMBINO</descrizione>
+        <giorni>0</giorni>
+        <id>10</id>
+        <persone>1</persone>
+        <prezzoServizio>-1025,00</prezzoServizio>
+        <qta>0</qta>
+        <tipo>QUOTA PACCHETTO</tipo>
+    </servViaggio>
+    <servViaggio>
+        <assicFacoltInContr />
+        <codicePolizzaAssic />
+        <data>22/04/19</data>
+        <descrizione>PROMOZIONE PARTI E RIPARTI</descrizione>
+        <giorni>0</giorni>
+        <id>03</id>
+        <noteServizio>
+            <testo>Iniziativa PARTI E RIPARTI, vantaggi per TUTTI:  - Garanzia della promozione BAMBINI - Annullamento senza pensieri - Finanziamento tasso zero  Iniziativa PARTI E RIPARTI, vantaggi in PIU' per chi acquista l'assicurazione Top Booking Plus e Top Booking Vip:                                                                      - Trolley (valido per pratiche min 2 pax adulti). - Buono parti e riparti   Per maggiori dettagli consulta il regolamento completo sui siti di Alpitour.it, Francorosso.it, Bravoclub.it </testo>
+        </noteServizio>
+        <persone>2</persone>
+        <qta>1</qta>
+        <stato>OK</stato>
+        <tipo>SERVIZI VARI</tipo>
+    </servViaggio>
+    <servViaggio>
+        <assicFacoltInContr />
+        <codicePolizzaAssic />
+        <data>22/04/19</data>
+        <descrizione>GARANZIA PREZZO CHIARO</descrizione>
+        <giorni>0</giorni>
+        <id>03</id>
+        <persone>3</persone>
+        <prezzoServizio>267,00</prezzoServizio>
+        <qta>1</qta>
+        <stato>OK</stato>
+        <tipo>SERVIZI VARI</tipo>
+    </servViaggio>
+    <servViaggio>
+        <assicFacoltInContr />
+        <codicePolizzaAssic />
+        <data>22/04/19</data>
+        <descrizione>PRENOTAZIONE SPOSI</descrizione>
+        <giorni>0</giorni>
+        <id>03</id>
+        <persone>1</persone>
+        <qta>1</qta>
+        <stato>OK</stato>
+        <tipo>SERVIZI VARI</tipo>
+    </servViaggio>
+    <servViaggio>
+        <assicFacoltInContr />
+        <codicePolizzaAssic />
+        <data>23/04/19</data>
+        <descrizione>TRASFERIMENTO BARCA VELOCE AEROPORTO/HOTEL</descrizione>
+        <giorni>0</giorni>
+        <id>01</id>
+        <noteServizio>
+            <testo>HTL: BRAVO ALIMATHA' </testo>
+        </noteServizio>
+        <persone>3</persone>
+        <qta>1</qta>
+        <stato>OK</stato>
+        <tipo>TRANSFER</tipo>
+    </servViaggio>
+    <servViaggio>
+        <assicFacoltInContr />
+        <codicePolizzaAssic />
+        <data>30/04/19</data>
+        <descrizione>TRASFERIMENTO BARCA VELOCE HOTEL/AEROPORTO</descrizione>
+        <giorni>0</giorni>
+        <id>01</id>
+        <noteServizio>
+            <testo>HTL: BRAVO ALIMATHA' </testo>
+        </noteServizio>
+        <persone>3</persone>
+        <qta>1</qta>
+        <stato>OK</stato>
+        <tipo>TRANSFER</tipo>
+    </servViaggio>
+    <servViaggio>
+        <assicFacoltInContr>S</assicFacoltInContr>
+        <codicePolizzaAssic>90301</codicePolizzaAssic>
+        <data>11/04/18</data>
+        <descrizione>ASS. FACOLTATIVA INTEGRATIVA  TOP BOOKING VIP ANNP</descrizione>
+        <giorni>0</giorni>
+        <id>02</id>
+        <persone>3</persone>
+        <prezzoServizio>88,53</prezzoServizio>
+        <qta>1</qta>
+        <stato />
+        <tipo>ASSICURAZIONI</tipo>
+    </servViaggio>
+    <servViaggio>
+        <assicFacoltInContr>S</assicFacoltInContr>
+        <codicePolizzaAssic>90300</codicePolizzaAssic>
+        <data>11/04/18</data>
+        <descrizione>ASS. FACOLTATIVA INTEGRATIVA TOP BOOKING PLUS ANN4</descrizione>
+        <giorni>0</giorni>
+        <id>02</id>
+        <persone>3</persone>
+        <prezzoServizio>295,13</prezzoServizio>
+        <qta>1</qta>
+        <stato />
+        <tipo>ASSICURAZIONI</tipo>
+    </servViaggio>
+    <servViaggio>
+        <assicFacoltInContr />
+        <codicePolizzaAssic>90000</codicePolizzaAssic>
+        <data>22/04/19</data>
+        <descrizione>ASSICURAZIONE TOP BOOKING BASIC</descrizione>
+        <giorni>0</giorni>
+        <id>02</id>
+        <persone>3</persone>
+        <qta>1</qta>
+        <stato />
+        <tipo>ASSICURAZIONI</tipo>
+    </servViaggio>
+    <servViaggio>
+        <assicFacoltInContr>S</assicFacoltInContr>
+        <codicePolizzaAssic>90602</codicePolizzaAssic>
+        <data>22/04/19</data>
+        <descrizione>ASS. FACOLT.INTEGR. TOP B.HEALTH TH2-MAX 250.000 E</descrizione>
+        <giorni>0</giorni>
+        <id>02</id>
+        <persone>3</persone>
+        <prezzoServizio>147,00</prezzoServizio>
+        <qta>1</qta>
+        <stato />
+        <tipo>ASSICURAZIONI</tipo>
+    </servViaggio>
+    <sezNeos>S</sezNeos>
+    <statoPratica>Confermata</statoPratica>
+    <status>OK</status>
+    <testoBloccoFinale />
+    <testoBloccoFinale2 />
+    <testoBloccoFinale3 />
+    <testoBloccoFinale4 />
+    <testoBloccoIniziale />
+    <testoBloccoIniziale2 />
+    <tipoViaggio>SOGGIORNO CHARTER</tipoViaggio>
+    <titoloReports>RIEPILOGO ORDINE AGENZIA</titoloReports>
+    <venditeDirette>false</venditeDirette>
+    <visualEC>SI</visualEC>
+    <volo id="1">
+        <aeromobile>B787</aeromobile>
+        <classe>Y</classe>
+        <data>22/04/19</data>
+        <descrizione>MILANO MALPENSA - MALE' MALDIVE</descrizione>
+        <numero>0110</numero>
+        <oraArr>09:05</oraArr>
+        <oraPart>21:00</oraPart>
+        <pnr>7AI4F5</pnr>
+        <sigla>NO</sigla>
+        <stato> OK</stato>
+        <tipo>00</tipo>
+    </volo>
+    <volo id="2">
+        <aeromobile>B787</aeromobile>
+        <classe>Y</classe>
+        <data>30/04/19</data>
+        <descrizione>MALE' MALDIVE - MILANO MALPENSA</descrizione>
+        <numero>0141</numero>
+        <oraArr>18:10</oraArr>
+        <oraPart>11:05</oraPart>
+        <pnr>BI8I44</pnr>
+        <sigla>NO</sigla>
+        <stato> OK</stato>
+        <tipo>00</tipo>
+    </volo>
+</preventivoDati>

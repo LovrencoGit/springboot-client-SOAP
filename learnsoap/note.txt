@@ -1,0 +1,11 @@
+GENERAZIONE ARTIFACT JAVA
+- from wsdl file
+$C:\Program Files\Java\jdk1.8.0_121\bin>	 	wsimport "C:\Users\....\src\main\resources\wsdl\service.wsdl" -d "C:\Users\Cernich Loris\Desktop\genFolder" -Xnocompile
+- from wsdl url
+$C:\Program Files\Java\jdk1.8.0_121\bin>		wsimport -keep -verbose http://test.easybook.it/WSPublic/services/TravelAppHandler/wsdl/TravelAppHandler.wsdl
+N.B.:	file generati nella cartella /bin 
+
+========================================================================================================================================================================
+
+GENERAZIONE JAVA MODEL FROM XSD
+$C:\...\Java\jdk1.8.0_...\bin> 		xjc -d "C:\User\...\genFolder" "C:\....\folder\file.xsd"
